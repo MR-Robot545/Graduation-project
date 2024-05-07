@@ -68,7 +68,8 @@ def preprocess():
 
     image_data = np.array(image_data)
     target_labels = np.array(target_labels)
-    return image_data, target_labels
+    np.save("image_data.npy", image_data)
+    np.save("target_labels.npy", target_labels)
 
 
 def exe(image):
@@ -81,7 +82,9 @@ def exe(image):
     gray_image = tf.image.rgb_to_grayscale(img_np_array)  # Convert to grayscale using OpenCV
     gray_image = np.expand_dims(gray_image, axis=-1)
     real_photo = gray_image.astype(np.float32)
-    image_data, target = preprocess()
+    # preprocess()
+    image_data = np.load("image_data.npy")
+    target = np.load("target_labels.npy")
     ans = 0
     ansy = -1
 
@@ -108,7 +111,7 @@ def search():
 
     search_result = {
         'index': returned_img,
-        'prediction': float(predict)
+        'accuracy': float(predict)
 
     }
     return jsonify(search_result)
