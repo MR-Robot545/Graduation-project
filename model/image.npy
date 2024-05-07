@@ -1,0 +1,338 @@
+“NUMPY v {'descr': '|u1', 'fortran_order': False, 'shape': (113, 96, 3), }                                                    
+                                                                                                                                                                                                                                                                                                   iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþöööùùùôôôöööüüüþþþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõõõùùùííí÷÷÷ëëëåååÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþûûûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþôôôõõõàààæææúúúïïïÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûûûþþþîîîÈÈÈÞÞÞÝÝÝÌÌÌËËËÞÞÞÑÑÑÑÑÑ×××ÖÖÖáááûûûøøøëëë÷÷÷ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿýýýÿÿÿÿÿÿþþþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïïßßßÝÝÝëëëÿÿÿÿÿÿÿÿÿÿÿÿ÷÷÷ñññÖÖÖÅÅÅ»»»ÏÏÏ´´´ººº¼¼¼ÔÔÔùùùÿÿÿÿÿÿúúúòòòâââÿÿÿÿÿÿÿÿÿÿÿÿÚÚÚÝÝÝùùùÑÑÑÚÚÚ×××ØØØôôôýýýÿÿÿÿÿÿÿÿÿóóóýýýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿíííåååöööÿÿÿÿÿÿÿÿÿóóóËËËÉÉÉÂÂÂÂÂÂÃÃÃ¹¹¹³³³¿¿¿úúúèèèÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþÿÿÿÿÿÿÿÿÿùùùÿÿÿÿÿÿóóóÓÓÓÌÌÌôôôéééøøøùùùÿÿÿÿÿÿÿÿÿþþþøøøýýýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüüüæææôôôÿÿÿÿÿÿöööæææÖÖÖÅÅÅóóóåååÿÿÿÿÿÿÿÿÿÿÿÿîîîÿÿÿÿÿÿòòòÏÏÏÓÓÓÁÁÁñññêêêÅÅÅ»»»±±±°°°¨¨¨±±±îîîöööÿÿÿÿÿÿÿÿÿÿÿÿàààÝÝÝÿÿÿåååÉÉÉþþþÖÖÖÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿúúúáááùùùÿÿÿÿÿÿÿÿÿñññÄÄÄ¿¿¿æææàààÿÿÿÿÿÿúúú½½½­­­®®®ÿÿÿÿÿÿÂÂÂ¶¶¶½½½ÀÀÀ¸¸¸ÍÍÍ¨¨¨±±±¾¾¾®®®­­­ÈÈÈ¦¦¦¬¬¬¦¦¦²²²¸¸¸ÅÅÅãããúúúÿÿÿÿÿÿÿÿÿÿÿÿúúúäääÕÕÕÙÙÙÑÑÑòòòÿÿÿýýýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿêêêùùùÿÿÿÿÿÿÿÿÿÈÈÈ»»»»»»¸¸¸ôôôÿÿÿüüü»»»ººº±±±¬¬¬½½½úúú¾¾¾¨¨¨±±±ðððóóóþþþûûûþþþîîîÅÅÅßßßöööæææèèèþþþÉÉÉÓÓÓþþþ¬¬¬ßßßÆÆÆÊÊÊáááÿÿÿþþþÿÿÿÿÿÿÿÿÿ×××ÞÞÞóóóòòòäääîîîÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿýýýÿÿÿÿÿÿÿÿÿÿÿÿúúúâââÀÀÀºººÏÏÏæææÿÿÿíííÀÀÀ¬¬¬¬¬¬···ÄÄÄâââààà®®®¯¯¯£££½½½°°°©©©   ¤¤¤ôôôÿÿÿÿÿÿÿÿÿùùùÿÿÿÿÿÿóóóÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþ¾¾¾òòòÿÿÿªªª±±±ÇÇÇÿÿÿÿÿÿÿÿÿÿÿÿôôôÎÎÎÜÜÜöööüüüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿöööÿÿÿÿÿÿÿÿÿõõõÌÌÌÌÌÌÑÑÑñññÿÿÿèèè¾¾¾¬¬¬¯¯¯ÀÀÀàààÿÿÿäää²²²›››¯¯¯ÆÆÆ«««¥¥¥«««­­­®®®¾¾¾«««¬¬¬˜˜˜‘‘‘ššš———˜˜˜’’’§§§ÄÄÄ   àààéééÿÿÿÿÿÿÿÿÿòòò´´´¥¥¥¦¦¦¨¨¨ÄÄÄéééÿÿÿÿÿÿçççÖÖÖÒÒÒßßßýýýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿíííÏÏÏñññõõõÿÿÿÿÿÿçççªªª¦¦¦¢¢¢¾¾¾ûûûÿÿÿúúú£££›››­­­£££²²²ÈÈÈ½½½ðððÉÉÉâââµµµ–––ÜÜÜššš‰‰‰‹‹‹¤¤¤¥¥¥œœœ¢¢¢¬¬¬¤¤¤¡¡¡§§§ššš¥¥¥äääïïïÿÿÿÿÿÿÜÜÜÀÀÀ´´´²²²³³³ÓÓÓÿÿÿÿÿÿÿÿÿãããÙÙÙáááÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÛÛÛÏÏÏïïïÿÿÿÿÿÿååå»»»ÎÎÎ¯¯¯ÖÖÖ÷÷÷ÿÿÿááá¨¨¨¬¬¬›››£££ºººåååþþþ÷÷÷ÑÑÑ¥¥¥­­­¿¿¿™™™¬¬¬ØØØåååìììáááôôôÿÿÿÿÿÿÿÿÿÿÿÿûûûÝÝÝÃÃÃ‘‘‘£££¤¤¤¨¨¨ýýýôôôõõõÿÿÿÿÿÿÓÓÓ²²²úúúÑÑÑ¾¾¾þþþÿÿÿÿÿÿàààñññÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïïÑÑÑÏÏÏòòòÿÿÿõõõ¼¼¼¸¸¸¾¾¾êêêÿÿÿééé²²²²²²ªªª¥¥¥¨¨¨ãããÿÿÿþþþÎÎÎ¢¢¢¤¤¤¦¦¦°°°àààìììÿÿÿÿÿÿóóóØØØÙÙÙ¯¯¯«««­­­ûûûæææëëëÿÿÿÿÿÿÿÿÿîîî÷÷÷æææ°°°ÿÿÿ«««–––ŸŸŸÝÝÝÿÿÿòòòßßßÁÁÁÅÅÅÐÐÐÛÛÛöööÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþßßßÓÓÓÐÐÐùùùëëëããã´´´¶¶¶ïïïÿÿÿ°°°ªªªóóó¤¤¤¯¯¯ííííííÿÿÿüüü¿¿¿œœœ¢¢¢¦¦¦ùùùýýýËËË´´´´´´˜˜˜‰‰‰ŽŽŽ‹‹‹€€€†††’’’‚‚‚„„„™™™ÊÊÊÄÄÄÛÛÛ­­­ÁÁÁÿÿÿÿÿÿÌÌÌ‰‰‰ššš¦¦¦ÅÅÅÿÿÿÿÿÿÿÿÿÿÿÿÂÂÂÂÂÂÓÓÓöööÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿóóóâââ÷÷÷üüüñññ±±±¶¶¶ÞÞÞÿÿÿøøø§§§ŸŸŸ¡¡¡¯¯¯èèèÿÿÿÿÿÿééé¥¥¥      ©©©ÎÎÎâââííí©©©–––ŠŠŠ‹‹‹‘‘‘›››ÏÏÏÛÛÛ‰‰‰¿¿¿°°°ŒŒŒ———ººº¢¢¢˜˜˜ŠŠŠ|||‚‚‚œœœ¾¾¾ãããÝÝÝÒÒÒÂÂÂ¡¡¡¿¿¿ÑÑÑÿÿÿÿÿÿÜÜÜßßßÉÉÉÍÍÍýýýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøøøÿÿÿóóó¾¾¾³³³ÖÖÖûûûééé°°°œœœ¼¼¼ÝÝÝõõõÿÿÿêêêËËËŸŸŸüüü”””ºººçççÿÿÿÿÿÿŸŸŸ¤¤¤ÂÂÂ¦¦¦øøøÿÿÿ±±±ÄÄÄÿÿÿóóóæææúúúÿÿÿÿÿÿúúúõõõÿÿÿÿÿÿÿÿÿÿÿÿêêê¦¦¦¤¤¤–––ŽŽŽ‰‰‰ÎÎÎÿÿÿÿÿÿÊÊÊ©©©õõõ   ¥¥¥ßßßüüüÿÿÿÃÃÃÕÕÕÿÿÿãããûûûÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿååå¼¼¼ËËËîîîÿÿÿ¸¸¸«««ããã©©©úúúÿÿÿãããµµµ«««¥¥¥üüüÿÿÿÿÿÿÚÚÚššš———”””ƒƒƒ‡‡‡ƒƒƒŠŠŠ………ŠŠŠ€€€xxxnnn|||ttt€€€rrr{{{˜˜˜ÄÄÄ¹¹¹ÈÈÈêêêÿÿÿÿÿÿááá•••¦¦¦ŠŠŠ   ÿÿÿççç¤¤¤›››ÊÊÊ²²²íííøøøÿÿÿÿÿÿÿÿÿÛÛÛ×××öööÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿØØØÈÈÈúúúÿÿÿøøø¾¾¾¡¡¡ØØØÿÿÿÿÿÿ¯¯¯»»»›››¯¯¯íííÿÿÿÿÿÿÅÅÅ“““ŠŠŠ‰‰‰ˆˆˆ›››³³³………‡‡‡’’’ŽŽŽyyyuuuoooƒƒƒ†††zzznnn~~~uuu€€€}}}}}}uuu²²²þþþÿÿÿ÷÷÷óóóÈÈÈ¢¢¢¶¶¶ÜÜÜÈÈÈïïïõõõîîîøøø³³³ÀÀÀ¹¹¹þþþÿÿÿàààÝÝÝÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüüüËËËÒÒÒüüüÿÿÿ×××¾¾¾ÿÿÿôôôÿÿÿÿÿÿ¾¾¾’’’“““˜˜˜òòòÿÿÿØØØ¶¶¶………›››ÅÅÅäääóóóÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿàààþþþ÷÷÷ÝÝÝìììììì²²²€€€~~~sssooo³³³¡¡¡¥¥¥µµµÿÿÿÿÿÿèèèººº¹¹¹üüüààà»»»ÿÿÿÿÿÿííí²²²­­­¯¯¯ÆÆÆÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿûûûÎÎÎÃÃÃ÷÷÷ÓÓÓ¥¥¥œœœÿÿÿÿÿÿ³³³ŽŽŽùùùˆˆˆëëëÿÿÿÆÆÆ’’’………———šššòòòÿÿÿÿÿÿÍÍÍ¨¨¨xxxlllssstttppp§§§^^^qqqggg[[[ŽŽŽYYYhhhcccƒƒƒÕÕÕ¤¤¤ÄÄÄûûûíííÂÂÂõõõµµµ|||€€€ŒŒŒ”””ÆÆÆÿÿÿÿÿÿÿÿÿïïïŒŒŒ©©©ÆÆÆÿÿÿííí®®®¯¯¯ÊÊÊÛÛÛÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÝÝÝÌÌÌüüüôôô›››———£££ööößßßˆˆˆtttˆˆˆÚÚÚÿÿÿøøø}}}———………çççúúúÿÿÿÿÿÿýýýlllrrr   ooogggkkkllleeebbb```aaafff”””–––ddd‘‘‘———‘‘‘———eee[[[„„„¼¼¼úúúýýýøøø………ööö¥¥¥yyyooo¿¿¿ÿÿÿÿÿÿššš†††±±±¼¼¼ÿÿÿÿÿÿÿÿÿ´´´ºººÐÐÐÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿãããÌÌÌÿÿÿÿÿÿ¥¥¥ÀÀÀÿÿÿ   àààzzz©©©ýýýÿÿÿzzzlll~~~þþþÿÿÿ÷÷÷sssŠŠŠáááoooiii}}}ÖÖÖèèèøøøÿÿÿÿÿÿôôôõõõþþþðððÿÿÿýýýýýý¸¸¸aaa¥¥¥ÎÎÎééé]]]\\\^^^™™™XXXýýýýýýêêêˆˆˆuuurrrrrrÇÇÇÿÿÿ¢¢¢‹‹‹†††‡‡‡’’’êêêÿÿÿãããÒÒÒ¿¿¿ÊÊÊýýýÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÌÌÌÿÿÿÿÿÿËËË“““ÖÖÖÿÿÿ”””~~~ŠŠŠöööÿÿÿ“““pppssskkkÀÀÀÿÿÿ»»»nnnllldddgggðððÿÿÿÿÿÿÿÿÿâââqqqSSSŒŒŒOOO„„„ÿÿÿÏÏÏ^^^```›››ÉÉÉ©©©©©©ÍÍÍêêêÈÈÈ§§§§§§°°°ÚÚÚØØØ°°°¥¥¥»»»rrrýýýøøøâââ§§§ooožžžlllÝÝÝþþþÔÔÔÌÌÌƒƒƒ®®®ýýýÿÿÿþþþÉÉÉùùùÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿýýýÿÿÿüüüœœœ™™™çççÿÿÿŒŒŒfff°°°ÿÿÿëëëddd[[[YYYšššûûû´´´___\\\UUUggg···ýýýúúúttt]]]GGGEEEGGGEEE„„„îîîcccœœœ¬¬¬pppWWW’’’ÞÞÞ´´´VVVTTT^^^®®®¨¨¨```TTT^^^———ttt°°°ªªªùùùÿÿÿááággg[[[ˆˆˆÿÿÿýýý”””€€€‰‰‰šššÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿïïï———óóóööökkkdddÂÂÂÿÿÿyyyVVVVVVàààþþþÜÜÜdddPPPTTT˜˜˜óóóûûûððð[[[LLLIIIGGG~~~ƒƒƒ{{{ÂÂÂÙÙÙÃÃÃÙÙÙ}}}```ˆˆˆ´´´      WWW›››TTT   +++TTTdddTTTOOOµµµ[[[©©©[[[UUUUUUýýýòòòNNNXXXddd}}}ßßßþþþªªª‹‹‹†††ÞÞÞÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÜÜÜ®®®–––þþþÂÂÂhhhjjjøøøñññ\\\™™™^^^úúúûûûkkk°°°PPPüüüþþþÿÿÿƒƒƒ@@@FFF111???\\\kkkîîîüüüÄÄÄ………§§§æææ§§§[[[***mmm)))888ÄÄÄ‚‚‚   ^^^666   ```«««§§§µµµ444mmm\\\TTTUUUwww³³³ÝÝÝŸŸŸZZZŠŠŠVVV\\\ËËËÿÿÿòòòóóóäää‘‘‘ìììÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÕÕÕ¦¦¦˜˜˜þþþ÷÷÷wwwŠŠŠýýýÂÂÂœœœ[[[eeeýýýÃÃÃaaaPPPþþþÑÑÑ@@@NNNPPP888ppp@@@üüüÿÿÿýýý‘‘‘ÛÛÛ¹¹¹ŠŠŠ¿¿¿°°°<<<ÂÂÂdddŒŒŒ®®®      222      ttt(((      UUU      ™™™|||UUUUUUýýýÛÛÛPPPÇÇÇWWW[[[òòòÿÿÿõõõ´´´éééÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ°°°šššÿÿÿÞÞÞÕÕÕ}}}ÿÿÿ³³³@@@FFFÒÒÒÿÿÿZZZ;;;¬¬¬þþþÿÿÿIII333%%%666KKK¸¸¸ûûûÊÊÊNNNeeeÀÀÀÝÝÝ‡‡‡———”””!!!www¦¦¦ššš---‚‚‚000      FFF­­­«««   			   &&&]]]rrrˆˆˆ   ^^^¬¬¬ýýýýýý¶¶¶‰‰‰”””OOOiiiÿÿÿÿÿÿåååÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿªªªÿÿÿÿÿÿvvvsssùùùËËËFFFMMMÿÿÿÕÕÕGGG666tttÿÿÿ»»»000!!!'''¤¤¤ÿÿÿÿÿÿÎÎÎ
+
+
+œœœÇÇÇííí   lllccc———
+
+
+gggwww   '''FFFTTTJJJ      žžžeee
+
+
+   LLLxxx°°°ÆÆÆeee
+
+
+BBBlllwwwXXX¦¦¦¦¦¦ÿÿÿþþþÓÓÓOOOMMM```‚‚‚ÿÿÿ°°°ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿœœœmmmÿÿÿmmmKKKCCCÿÿÿnnnFFFaaaÂÂÂýýý,,,!!!###âââúúú000
+
+
+   ‰‰‰„„„ååå’’’
+
+
+³³³'''lllÄÄÄ888...DDD
+
+
+
+
+
+```ÝÝÝAAA   YYY¤¤¤666   DDD‡‡‡———FFF      :::   UUUUUU]]]²²²ÿÿÿÿÿÿþþþÀÀÀøøøzzzÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþiii¸¸¸AAAKKKççç^^^&&&...™™™×××---%%%¼¼¼ýýýŒŒŒ			ŽŽŽúúúþþþzzz………âââ§§§000ooo‘‘‘KKK[[[000¹¹¹DDD:::|||"""      tttDDD         +++XXX   MMMfff$$$      %%%nnn®®®ëëë¡¡¡”””¦¦¦ÿÿÿkkk¬¬¬ùùùÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¯¯¯]]]\\\yyyXXXððð‹‹‹III444óóósss$$$µµµÿÿÿ°°°   RRRøøøïïïÌÌÌ‹‹‹xxx   µµµ222JJJLLL   GGGHHH{{{&&&   ‰‰‰WWW
+
+
+gggÖÖÖkkk%%%’’’{{{(((!!!¨¨¨HHHbbb˜˜˜BBB   UUUWWW¨¨¨©©©¹¹¹ƒƒƒ{{{ÿÿÿ›››±±±ŠŠŠÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ]]]bbbyyyºººõõõHHHKKKþþþ‡‡‡ÜÜÜôôô222   ÕÕÕëëë   ïïï¥¥¥uuuœœœƒƒƒ
+
+
+¼¼¼###---¦¦¦AAAOOODDD===}}}CCC   &&&___   555MMM...      iiiííí~~~      (((pppuuupppííí†††FFFcccùùù„„„ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÊÊÊ```xxxåååÿÿÿ¹¹¹777~~~FFFýýýIIIàààÊÊÊ
+
+
+444üüü«««      ³³³§§§kkk²²²ððð;;;111‰‰‰aaaƒƒƒ333˜˜˜žžž^^^   eee§§§<<<
+
+
+```ÅÅÅSSS      ¤¤¤îîî”””###         			"""***,,,•••ooo¡¡¡èèèïïïŽŽŽZZZÿÿÿ‡‡‡‰‰‰ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiêêêÿÿÿÿÿÿÿÿÿÿÿÿþþþÖÖÖûûûýýýmmmIII///yyyýýý555---!!!ììì„„„      ÿÿÿïïïÀÀÀëëë¢¢¢nnnŽŽŽ²²²((($$$HHH			   
+
+
+RRRMMMŠŠŠ,,,>>>HHH         CCC$$$         NNNnnn      ===111;;;ÌÌÌppp###|||'''   WWWWWWéééãããÝÝÝÿÿÿçççÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿúúúmmmöööñññ```<<<XXXüüüøøøJJJÿÿÿ:::   nnnÿÿÿ¡¡¡      ƒƒƒðððÆÆÆuuu222’’’   ‘‘‘000TTTRRR   
+
+
+AAA<<<333(((      fff~~~   			&&&bbb“““222
+
+
+îîîooo………ÙÙÙ………111      VVV   WWW   AAAyyyòòòòòòÀÀÀ¿¿¿“““ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿEEERRRrrrÿÿÿæææJJJÊÊÊvvvgggùùùTTT      UUUXXXïïïÁÁÁccckkk±±±~~~   JJJ}}}...JJJ   „„„)))      ***444   000:::
+
+
+         )))
+
+
+   ###
+
+
+         aaaMMM•••OOO\\\ôôôþþþÄÄÄ‹‹‹ÚÚÚÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿµµµ777jjjÿÿÿ»»»...
+
+
+€€€ÿÿÿkkk   ‚‚‚úúú
+
+
+      
+
+
+ÜÜÜÚÚÚœœœãããŠŠŠbbb………{{{FFF///rrr444   ¸¸¸BBBlll      
+
+
+```§§§   999¡¡¡ÜÜÜ)))
+
+
+fffÈÈÈ²²²///      000   AAA}}}yyyXXX   WWW÷÷÷öööÿÿÿïïïyyyÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ²²²___yyyÿÿÿ’’’™™™ïïï***ÑÑÑøøø###   ûûûdddŽŽŽ¿¿¿ËËË'''ÆÆÆ(((>>>...   PPPaaa   ccc(((   
+
+
+   
+
+
+###***   xxxkkk      :::———DDD      AAAnnn±±±777      ???dddXXXöööÅÅÅüüüîîî¥¥¥ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿõõõBBBGGGÿÿÿòòò"""ÊÊÊÿÿÿ   üüüÙÙÙÖÖÖûûûXXXãããÐÐÐÝÝÝˆˆˆyyyPPPYYYØØØHHH   
+
+
+mmm%%%---¦¦¦   """MMM
+
+
+kkkÂÂÂ’’’
+
+
+   fffßßß111         ???ººº:::         tttddd777dddôôôöööÈÈÈÿÿÿ´´´ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿTTTLLLèèèÿÿÿ^^^***ÊÊÊÿÿÿ<<<\\\ýýý   sssKKK´´´   ëëëôôôÉÉÉkkk111OOOŸŸŸ   III‘‘‘
+
+
+```DDD   \\\999   777šššEEE         TTTyyy"""         555???ÃÃÃ>>>                  '''```WWW¨¨¨áááµµµÞÞÞÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿŸŸŸŒŒŒñññëëëXXX(((ÏÏÏíííÁÁÁóóóWWW         LLL      ÙÙÙíííËËËdddkkk£££
+
+
+'''³³³***      ccc---   QQQ{{{   
+
+
+RRRUUU
+
+
+mmmâââ???<<<•••ÔÔÔbbb///sssœœœ
+
+
+            
+
+
+)))‘‘‘222‚‚‚ÈÈÈ¥¥¥———ªªª¨¨¨óóóÀÀÀÅÅÅÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿsssµµµÿÿÿ333%%%±±±ÕÕÕ···ÈÈÈ			þþþ   ®®®...   ãããÎÎÎ‹‹‹ggglllÂÂÂeee•••ŠŠŠ
+
+
+;;;   
+
+
+………///]]]¹¹¹žžž   777†††"""   ###zzz;;;         €€€LLL                  ***{{{lll;;;pppppp¡¡¡kkk^^^WWWçççøøøÊÊÊ‚‚‚èèèÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿýýýHHH***nnnùùù			¼¼¼éééÌÌÌIII   †††      „„„îîî¬¬¬ooo///¬¬¬´´´			(((ÁÁÁttt%%%½½½kkk®®®)))   sssÔÔÔ```      %%%ååå‚‚‚vvv¼¼¼XXX
+
+
+   ,,,™™™‰‰‰!!!         ___UUU$$$999   
+
+
+            WWWöööïïï‘‘‘¢¢¢÷÷÷ÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿiii\\\uuuòòò===)))zzzÿÿÿ   ¯¯¯ððð   ÎÎÎ   šššêêêìììÉÉÉeee€€€ØØØ‰‰‰000***¡¡¡¢¢¢˜˜˜www   »»»´´´
+
+
+   KKKrrr(((   JJJ|||'''                  TTT€€€]]]'''444$$$                     ZZZWWWæææ÷÷÷ÝÝÝ’’’ñññÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿäää;;;eeeÿÿÿ[[[EEEûûû===ààà
+
+
+   ³³³   iiiüüüìììòòò³³³jjj777ÉÉÉ:::lll{{{+++///pppJJJ(((ÆÆÆ'''   ZZZéééFFF000WWWaaaÝÝÝGGG   :::„„„555   AAA^^^            000+++***---¡¡¡MMMHHHëëëöööøøøðððÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿcccgggÿÿÿÛÛÛHHH@@@öööaaa   			ßßß   žžž   ûûûZZZìììÊÊÊ³³³lll´´´±±±444
+
+
+………qqq999»»»   ‰‰‰˜˜˜ŸŸŸ¥¥¥   zzzMMMnnnzzz   zzzSSS      )))
+
+
+         eeelll...   +++;;;AAA###–––“““òòò¾¾¾ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿbbbÿÿÿÿÿÿFFFFFFôôôooo      ¢¢¢,,,   
+
+
+ááá      ÖÖÖœœœSSSìììÝÝÝ°°°tttááá¡¡¡###sssggg   ‡‡‡€€€---®®®HHHKKK   vvv®®®GGG
+
+
+   ’’’¢¢¢!!!         ###      333ÐÐÐžžž<<<                     dddiii÷÷÷ÁÁÁÑÑÑÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿôôôÿÿÿDDD---uuuõõõ{{{      ÝÝÝ      333«««   \\\ðððççç±±±vvvÙÙÙMMM>>>'''xxx666999ÓÓÓ,,,¬¬¬ttt‚‚‚VVVVVVžžž(((YYY+++xxxððð888
+
+
+---   000TTTaaa   
+
+
+                     			555WWW¨¨¨···|||ÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÝÝÝÿÿÿååå"""'''òòò$$$   ôôô   111zzz      ÚÚÚRRRRRRîîîæææ´´´›››ÞÞÞqqq      
+
+
+«««yyy­­­'''>>>ÒÒÒkkk<<<¦¦¦ƒƒƒNNN
+
+
+‡‡‡“““ŒŒŒ      ÃÃÃrrr   
+
+
+###   )))LLL555JJJºººììì•••ÐÐÐããã¼¼¼îîîÇÇÇ}}}çççÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿGGG)))ÃÃÃsssFFF   
+
+
+      			òòò      ;;;EEE      VVVëëëâââ¯¯¯œœœèèè
+
+
+         ,,,   qqq~~~HHHšššmmm’’’rrr999999444
+
+
+AAA'''      			
+
+
+   ...   
+
+
+TTTyyyppp›››JJJÕÕÕÓÓÓ£££ÎÎÎäää¹¹¹¯¯¯ÂÂÂçççöööÿÿÿñññöööÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÚÚÚ...sssÿÿÿ
+
+
+ÖÖÖ      ppp###      FFF   LLL   àààëëëßßß³³³ººº­­­___BBB[[[@@@†††555   }}}OOO      ___FFF###ZZZ   vvvRRR888ÜÜÜ$$$   III§§§!!!   %%%RRRYYY¶¶¶¦¦¦‘‘‘£££)))***DDD)))$$$,,,bbb½½½ûûûÿÿÿþþþýýýÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿµµµ444úúúËËË
+
+
+›››
+
+
+   
+
+
+‡‡‡      			      
+
+
+}}}éééááá¹¹¹ÂÂÂŒŒŒEEEˆˆˆ
+
+
+999‚‚‚ŽŽŽ&&&   nnnddd   sss!!!			###nnn{{{‹‹‹___   888<<<   PPPpppƒƒƒ™™™˜˜˜hhh555   """
+
+
+WWWttt±±±éééÿÿÿÿÿÿýýýÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿ???GGGÿÿÿ888   000¤¤¤   ÁÁÁ   ’’’         ÇÇÇQQQíííÝÝÝ½½½îîîdddbbbHHHZZZ   EEEŠŠŠ999333>>>   ___¸¸¸222999ccc   ½½½¾¾¾MMMTTT¯¯¯ÂÂÂŽŽŽNNN         :::VVVuuu777{{{œœœeeezzzÙÙÙóóóãããÈÈÈÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿýýý<<<ºººÿÿÿååå      [[[      ˆˆˆ      '''<<<>>>RRRéééÄÄÄÉÉÉÞÞÞ‘‘‘+++   ŒŒŒŽŽŽœœœ         $$$°°°›››ÇÇÇ...ttt}}}   """”””ÉÉÉûûûªªª;;;   ‹‹‹
+
+
+      GGG´´´õõõßßßßßß“““+++!!!rrrÝÝÝòòòþþþááá¸¸¸ÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿýýý   ÿÿÿ‚‚‚www®®®      EEE   ›››      RRRQQQáááÁÁÁÕÕÕÖÖÖ†††OOO¬¬¬‡‡‡ÀÀÀ!!!   www```QQQ„„„
+
+
+000³³³+++___ôôô$$$   ùùù;;;   <<<¥¥¥nnn777ûûûææækkk(((         444±±±òòòüüüßßß………lllËËË```^^^***”””èèèäää²²²žžžÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÚÚÚÿÿÿøøø¨¨¨GGG      øøø      sss                  ãããÂÂÂÈÈÈùùùBBB...ÑÑÑ^^^nnn---———XXXæææ¾¾¾   ···¥¥¥­­­ŽŽŽmmmqqq¶¶¶ÕÕÕiiiMMMƒƒƒSSS%%%???~~~‚‚‚'''      
+
+
+               ddd¾¾¾þþþºººÓÓÓÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿµµµÓÓÓyyyNNN      ÎÎÎ         ggg   '''   èèèçççÔÔÔÒÒÒŒŒŒ222‘‘‘§§§;;;£££
+
+
+ˆˆˆ%%%   DDD   %%%ZZZBBB£££ïïï___???ÞÞÞ   sssÀÀÀ'''   ÖÖÖuuu   333XXXCCCqqq²²²WWW   EEE,,,      WWW‚‚‚...KKK   ...WWW±±±íííòòò†††ýýýÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿvvv   ›››   ððð      
+
+
+OOO               QQQæææêêêÒÒÒßßßwww000oooÄÄÄ
+
+
+†††```>>>   ___–––---ÑÑÑpppõõõ   ®®®œœœ³³³œœœ---óóóÿÿÿïïïnnnEEE%%%111xxx)))WWW­­­ÚÚÚÃÃÃøøøôôôÔÔÔßßßÎÎÎÉÉÉÆÆÆ÷÷÷¶¶¶ÿÿÿ÷÷÷ÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿúúú555   ÎÎÎ...      ÛÛÛ      ___FFF      MMM      †††QQQéééÕÕÕöööƒƒƒ(((¦¦¦sssxxx{{{   VVV   ;;;^^^!!!ffffffÀÀÀJJJ———˜˜˜KKKããã'''   888êêêÄÄÄbbb
+
+
+VVV“““FFFHHH999,,,zzzÉÉÉŠŠŠððððððÂÂÂÁÁÁîîîÀÀÀ˜˜˜–––†††~~~ØØØßßßÏÏÏ©©©¨¨¨ÜÜÜÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿààà###
+
+
+ÿÿÿ(((   •••      ÍÍÍ         ¼¼¼      """¾¾¾QQQììììììÝÝÝddd111‚‚‚¡¡¡777âââ   
+
+
+¡¡¡$$$tttRRR   MMM‚‚‚   JJJÜÜÜHHHôôôˆˆˆÕÕÕ¶¶¶   yyy¶¶¶DDDrrróóóÖÖÖÐÐÐ²²²‹‹‹[[[‚‚‚777\\\'''...!!!:::         kkkÇÇÇÄÄÄ¨¨¨pppÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÚÚÚÿÿÿggg      ÇÇÇ      333      888      êêêµµµããã{{{sss“““DDD???ÇÇÇ???{{{^^^mmm‹‹‹   +++ééé   ,,,ÕÕÕ%%%   ®®®]]]666ËËË™™™!!!²²²êêêmmm
+
+
+ÓÓÓääämmmTTTmmm         333			!!!MMM@@@;;;¢¢¢sssYYY222WWWWWWhhhÿÿÿ©©©\\\ÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿaaa³³³âââ   ¼¼¼      ›››      ôôô         111         ªªªñññ•••uuu‹‹‹___
+
+
+===<<<...UUUžžž‹‹‹§§§@@@,,,UUU&&&’’’‚‚‚%%%ÙÙÙ½½½OOOœœœKKK      >>>WWWWWWtttuuuÑÑÑ†††GGGªªªÂÂÂÁÁÁâââ¹¹¹àààïïïúúúíííºººBBB   WWW¬¬¬ÿÿÿhhh;;;ÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿ{{{)))ýýýDDD   ÝÝÝ      ŒŒŒMMM   ÎÎÎ               ëëëêêêÂÂÂ444hhhÄÄÄööö???;;;nnn€€€&&&vvv<<<xxx///)))ÞÞÞ<<<½½½¨¨¨FFFUUU'''         
+
+
+[[[ÐÐÐ¯¯¯ØØØÅÅÅlllyyy˜˜˜\\\MMM~~~===ˆˆˆ000WWW   WWW}}}¨¨¨áááôôôrrrÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÞÞÞúúúÿÿÿ&&&
+
+
+JJJŽŽŽ      ööö         vvv      ÁÁÁûûûìììðððppp@@@ççç555§§§ccclllŠŠŠ   AAAÅÅÅÌÌÌ   ttt===<<<¬¬¬lllkkkËËËNNNAAA†††   ŽŽŽÎÎÎAAA!!!###      
+
+
+   ###BBB@@@rrr¢¢¢ÚÚÚîîî¨¨¨¿¿¿ÿÿÿÂÂÂÿÿÿíííÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿ¿¿¿ÿÿÿÿÿÿ$$$ÊÊÊ   ýýý      –––         mmm         îîîYYYåååïïï›››ŒŒŒ³³³™™™			^^^ÁÁÁ+++áááÒÒÒ555¢¢¢ggg   NNN€€€MMMÐÐÐûûûHHH±±±ëëëWWWeeeÉÉÉ²²²)))   
+
+
+---   <<<–––ßßß²²²ÎÎÎñññ›››€€€¨¨¨WWWWWWÿÿÿ   ÿÿÿìììÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüüüÿÿÿCCC\\\      ˜˜˜         ¦¦¦         !!!RRRîîîÀÀÀ‚‚‚«««nnn„„„000ççç///•••LLL
+
+
+}}}qqqKKK¿¿¿   ßßß
+
+
+   ÐÐÐ>>>œœœ•••999<<<•••¼¼¼999222………˜˜˜ããã­­­±±±ÙÙÙxxxÀÀÀòòò½½½ÏÏÏÕÕÕ………$$$;;;aaa			   WWWÂÂÂWWW   ÇÇÇŒŒŒBBBùùùÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÆÆÆ111æææ      ÐÐÐ@@@      ­­­         ¡¡¡      RRRRRRRRRããã|||˜˜˜ccc000‚‚‚@@@
+
+
+LLL———ÔÔÔ111™™™ZZZ   www›››DDDäää»»»
+
+
+¨¨¨ðððRRR$$$fffjjj===ZZZGGGAAA         777¬¬¬ÁÁÁWWW555444üüühhhúúúÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÕÕÕÅÅÅ}}}      ëëë         KKK   ‰‰‰iii   æææ   ‡‡‡‡‡‡   ¸¸¸HHHFFF€€€¦¦¦   
+
+
+ÇÇÇ&&&{{{===   {{{‰‰‰@@@   õõõ
+
+
+žžžèèèKKK"""………œœœšššTTT                     222ãããWWWÂÂÂ         ßßßkkkÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ^^^ÂÂÂXXX      >>>   ¤¤¤         ¯¯¯         úúúppp"""ûûûzzz···ÇÇÇˆˆˆ///FFFGGGƒƒƒ|||			OOOžžž   %%%êêê      HHH
+
+
+
+
+
+¶¶¶ggg444ŽŽŽ­­­333
+
+
+:::æææùùù‚‚‚ZZZ111LLL&&&!!!SSS+++DDDvvv###IIIxxxâââ   999WWW¨¨¨qqqÿÿÿ---‚‚‚ÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿKKKÎÎÎCCC      ¯¯¯
+
+
+   –––                  RRR°°°êêêïïï±±±vvv###'''vvvˆˆˆ///ÖÖÖ   ááá%%%WWW===999
+
+
+wwwÎÎÎ\\\   ÞÞÞÚÚÚ))):::VVVzzzììì///‹‹‹æææàààþþþüüüççç­­­eee"""´´´¨¨¨WWW111÷÷÷¶¶¶___ÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿbbb   SSS      ÐÐÐ                              '''      ###ÑÑÑSSSÆÆÆ]]]KKKßßßÀÀÀMMM   tttfff!!!
+
+
+EEEŽŽŽGGG   %%%çççÞÞÞ;;;%%%‹‹‹   zzz###   '''   www¾¾¾ØØØ‚‚‚111			
+
+
+   WWWèèèWWWWWW¬¬¬KKK   $$$þþþëëëúúúÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿTTTÙÙÙ444      ÀÀÀ               ØØØ            111      wwwÊÊÊSSS   âââ|||[[[•••ddd   TTTvvv(((’’’      <<<···KKKrrrÅÅÅ›››---   ```¬¬¬éééfff                  WWW
+
+
+WWW   WWWWWWÄÄÄWWW   »»»      »»»ÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ€€€ÿÿÿZZZ+++      555      <<<                  †††      ÿÿÿSSSùùù···444EEENNNËËË   CCCnnn¶¶¶]]]   UUU‰‰‰sss   ???ûûûÊÊÊ,,,      222\\\CCCuuu			   ###   PPPuuu¡¡¡ªªªgggWWW===         ÓÓÓåååþþþúúúÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿvvv   ---III      XXX                     ÿÿÿüüü   ƒƒƒäääŒŒŒkkkaaaÓÓÓ???   rrrnnnIII‚‚‚˜˜˜   ÉÉÉ)))555ŠŠŠ‰‰‰vvv+++   ŠŠŠ“““«««LLL”””ëëëßßß¶¶¶ÝÝÝÏÏÏ©©©   WWWttt‰‰‰      iii!!!,,,‡‡‡ÿÿÿÿÿÿþþþ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ         111      aaa                  ãããwww      ååå$$$   eeeWWWWWWÍÍÍhhheeexxx...|||ººº      ÕÕÕGGGGGGsssttt			777åååÝÝÝttt         """      
+
+
+111gggœœœ´´´KKK^^^ZZZˆˆˆWWW   èèè      FFFcccŽŽŽÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿùùùDDD      ‚‚‚      			               ŽŽŽ“““      ¸¸¸ÿÿÿWWW   WWWÖÖÖhhhggg]]]¹¹¹fff|||ooo!!!   888mmm………   ddd}}}888………|||:::         WWW         ]]]WWWWWWWWWWWW   üüü   IIIëëë
+
+
+½½½ÿÿÿùùùýýý               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ111                  
+
+
+      îîî         þþþmmm      WWW}}}ÿÿÿƒƒƒ}}}ÄÄÄ¢¢¢
+
+
+<<<‘‘‘"""ÀÀÀ   yyysssSSS888
+
+
+¤¤¤………]]]555PPPnnn333fffWWW­­­ÂÂÂWWW   ;;;%%%   ííí			$$$ØØØÕÕÕÿÿÿaaaýýý               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ¬¬¬áááýýý888999      ªªª      QQQ         ˆˆˆ­­­      ÔÔÔÚÚÚ         úúúÿÿÿWWWWWW†††ÙÙÙzzzÖÖÖ^^^mmmEEEEEE™™™‰‰‰???   
+
+
+---eee———???      FFFPPP~~~ÂÂÂvvvµµµŠŠŠ¬¬¬WWW²²²hhh   			DDD   ëëëôôô’’’ÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿêêê$$$@@@            AAA   °°°      ###   âââ         ¸¸¸   †††òòò      ééé¬¬¬ÏÏÏ‡‡‡   '''‡‡‡ŸŸŸwww   ///±±±ÐÐÐQQQ   
+
+
+nnnttt„„„•••@@@ZZZ      ]]]WWWWWWbbbÄÄÄWWWWWW^^^CCC   ±±±   ïïï      ÿÿÿ555“““ÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿttt«««      ááá                  777¢¢¢      øøø   
+
+
+ÉÉÉ      œœœûûû   ¦¦¦ÇÇÇaaaXXXkkkÂÂÂééépppbbbŸŸŸ£££fff!!!      ===ŒŒŒlllÛÛÛBBBºººkkknnn___¨¨¨ªªªWWW¾¾¾   BBBxxx   
+
+
+ùùù   õõõQQQ;;;***ÿÿÿÆÆÆÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿþþþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿŽŽŽ   ™™™      €€€               ÓÓÓþþþÎÎÎ         }}}ÿÿÿÔÔÔWWWWWWWWW®®®jjjWWW´´´áááÞÞÞ”””WWWWWW999›››rrr
+
+
+fffTTTÎÎÎÎÎÎŒŒŒfffWWWWWWååå      GGGttt   
+
+
+ôôô      ÜÜÜPPP   ñññüüüîîîÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿþþþÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ111¤¤¤      
+
+
+      
+
+
+            ¿¿¿   ÿÿÿ   
+
+
+ˆˆˆÿÿÿ      “““ßßßWWWWWWššš‚‚‚ÝÝÝÓÓÓZZZWWW\\\¡¡¡•••mmm‰‰‰bbbYYYYYY\\\áááWWWWWWžžžUUUbbb   óóó			   wwwººº
+
+
+			ÜÜÜ      ÒÒÒêêê   ///ÝÝÝþþþÿÿÿÿÿÿíííþþþ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿüüüžžž±±±   %%%      oooMMM   zzz            
+
+
+ÿÿÿ   PPP   ÞÞÞÅÅÅÿÿÿ£££      ÁÁÁììì???WWWÖÖÖWWWppp¸¸¸±±±½½½­­­«««¬¬¬±±±ÈÈÈßßßòòò¨¨¨WWWWWW```      ³³³   ÚÚÚ   “““fffííí   ÄÄÄÚÚÚ   555þþþüüüÕÕÕàààÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ±±±'''ððð
+
+
+   ¨¨¨      ƒƒƒ                        ÄÄÄddd         
+
+
+ûûûÞÞÞ      ///ÿÿÿààà      ÑÑÑ			WWW   WWWWWWWWWWWWWWWŠŠŠWWWWWWxxxtttWWWWWW888   fffiii      úúú      «««———"""úúú@@@   æææìììJJJöööÿÿÿþþþüüüÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿðððþþþhhh                              III      ñññ      ÉÉÉÿÿÿ'''      ÿÿÿÿÿÿ      ttt            XXX      WWWŒŒŒfffWWW   ÔÔÔ)))      [[[         >>>      øøø¸¸¸000õõõ'''ÙÙÙõõõ   ÁÁÁÿÿÿþþþÿÿÿùùùÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÈÈÈþþþëëë¾¾¾            SSS      			œœœÉÉÉ      €€€ÄÄÄ   ¦¦¦         üüüÿÿÿwww      ººº         
+
+
+      ÈÈÈ      ûûû\\\   WWW¼¼¼   """      ÐÐÐ   éééïïï\\\ÿÿÿ      ———ÿÿÿÎÎÎ®®®ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿøøø               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿùùùÿÿÿÿÿÿÿÿÿ   ššš      000(((   QQQ999±±±uuu         úúú,,,            ÿÿÿþþþ      ………            µµµ         000      eeeRRR   ,,,      ;;;      ¬¬¬©©©   ÖÖÖÛÛÛ777ZZZþþþ   ÔÔÔÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿùùù               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþÿÿÿ&&&YYY   iii      aaa            CCC      iii               ÖÖÖööö               ÎÎÎ<<<      lll      ååå
+
+
+         SSS      xxx000      õõõÄÄÄ×××ÒÒÒ<<<øøønnnþþþéééòòòúúúÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþÿÿÿÿÿÿÿÿÿfff777   LLL         KKK   NNN
+
+
+            ºººóóóûûûýýýûûû                     ›››ÿÿÿ      ¾¾¾         tttÍÍÍ      %%%000      ¶¶¶
+
+
+ÿÿÿKKKHHH===ãããŠŠŠsssüüü???"""ÿÿÿÿÿÿäääÿÿÿÿÿÿÿÿÿÿÿÿîîîÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿôôô)))&&&}}}			EEE      ÇÇÇ            JJJ         gggûûû÷÷÷½½½      ^^^         222øøø___      qqq      ßßß         £££©©©   mmm   444ÿÿÿRRRþþþUUU"""qqqÿÿÿnnnÞÞÞþþþÿÿÿüüüÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ               iiiÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿþþþÿÿÿÿÿÿÿÿÿõõõ>>>ØØØ   BBB      OOO         ttt         ñññœœœ			                     GGGßßß            âââddd      %%%•••         III         ,,,###   @@@³³³¡¡¡ððð›››÷÷÷EEE666ÙÙÙùùùssslllÿÿÿÿÿÿÛÛÛÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
