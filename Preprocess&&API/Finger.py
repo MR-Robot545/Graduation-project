@@ -31,21 +31,23 @@ def preprocess():
     for filename in os.listdir(photos_directory):
         if filename.endswith(".BMP"):
             subject_id, gender, lr, finger = filename.split('_')
+            finger,_ = finger.split('.')
             gender = 0 if gender == 'M' else 1
             lr = 0 if lr == 'Left' else 1
-
+            # print(finger)
             if finger == 'thumb':
                 finger = 0
             elif finger == 'index':
                 finger = 1
             elif finger == 'middle':
                 finger = 2
-            elif finger == 'ring':
+            elif finger == 'ring':  #ring
                 finger = 3
             elif finger == 'little':
                 finger = 4
             else:
                 finger = 5
+            # print(subject_id," : ",finger)
             target_labels.append([subject_id, gender, lr, finger])
             path = os.path.join(photos_directory, filename)
             img = Image.open(path)
@@ -70,6 +72,60 @@ def generate_filename(file):
     lr = request.form.get('lr')
     filename = f"{user_id}_{gender}_{lr}_{finger_type}.BMP"
     return filename
+def replace_name(existing_img):
+    gender = 'M' if existing_img[1] == 0 else 'F'
+    lr = 'Left' if existing_img[2] == '0' else 'Right'
+
+    if existing_img[3] == '0':
+        finger = 'thumb'
+    elif existing_img[3] == '1':
+        finger = 'index'
+    elif existing_img[3] == '2':
+        finger = 'middle'
+    elif existing_img[3] == '3':
+        finger = 'ring'
+    elif existing_img[3] == '4':
+        finger = 'little'
+    else:
+        finger = 'foot'
+    # Rename the new image to match the existing one
+    new_filename = f"{existing_img[0]}_{gender}_{lr}_{finger}.BMP"
+    return new_filename
+
+def Add(file):
+    if file.filename == '':
+        return 'No selected file'
+    filename = generate_filename(file)
+    if not os.path.exists(photos_directory):
+        os.makedirs(photos_directory)
+
+    file.save(os.path.join(photos_directory, filename))
+    preprocess()
+    return filename
+
+def update(file1, file2):
+    if file1.filename == '' or file2.filename == '':
+        return 'No selected file'
+
+    # Execute the search to find the existing image
+    existing_img, _ = exe(file1)
+    print(existing_img)
+    if existing_img is None:
+        return 'The provided image does not match any existing image.'
+
+    new_filename = replace_name(existing_img)
+
+    # Remove the existing image
+    os.remove(os.path.join(photos_directory, new_filename))
+
+    # Save the new image with the existing image's name
+    file2.save(os.path.join(photos_directory, new_filename))
+
+    preprocess()
+
+    return jsonify({'message': 'File updated successfully','filename': new_filename})
+
+
 def exe(image):
     img = Image.open(image)
     if img.mode != 'RGB':
@@ -84,16 +140,16 @@ def exe(image):
     image_data = np.load("image_data.npy")
     target = np.load("target_labels.npy")
     ans = 0
-    ansy = -1
+    any = None
     print(len(image_data))
     for i in range(len(image_data)):
         pre = model.predict([real_photo.reshape((1, 144, 90, 1)).astype(np.float32),
                              image_data[i].reshape((1, 144, 90, 1)).astype(np.float32)])
         if ans < pre:
-            ansy = target[i][0]
+            any = target[i]
             ans = pre
 
-    return ansy,ans
+    return any, ans
 
 # Endpoint to receive and process search images
 @app.route('/search', methods=['POST'])
@@ -104,10 +160,14 @@ def search():
 
     image_file = request.files['image']
 
-    returned_img,predict= exe(image_file)
+    returned_img, predict = exe(image_file)
 
     search_result = {
-        'index': returned_img,
+        'index': returned_img[0],
+        'inde': returned_img[1],
+        'ind': returned_img[2],
+        'in': returned_img[3],
+
         'accuracy': float(predict)
 
     }
@@ -118,16 +178,20 @@ def Add_Image():
         return jsonify({'error': 'No image provided'}), 400
 
     file = request.files['image']
-
-    if file.filename == '':
-        return 'No selected file'
-    filename = generate_filename(file)
-    if not os.path.exists(photos_directory):
-        os.makedirs(photos_directory)
-
-    file.save(os.path.join(photos_directory, filename))
-    preprocess()
+    filename = Add(file)
     return jsonify({'message': 'File uploaded successfully', 'filename': filename})
+@app.route('/Update', methods=['POST'])
+def Update_Image():
+    if 'image' not in request.files:
+        return jsonify({'error': 'No image provided'}), 400
+    if 'new_image' not in request.files:
+        return jsonify({'error': 'No image provided'}), 400
+
+    file1 = request.files['new_image']
+    file2 = request.files['image']
+
+
+    return update(file2,file1)
 
 if __name__ == '__main__':
     app.run(debug=True)
