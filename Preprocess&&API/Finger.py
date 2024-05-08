@@ -164,10 +164,6 @@ def search():
 
     search_result = {
         'index': returned_img[0],
-        'inde': returned_img[1],
-        'ind': returned_img[2],
-        'in': returned_img[3],
-
         'accuracy': float(predict)
 
     }
