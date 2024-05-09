@@ -24,7 +24,7 @@ model = load_model('good_model')
 
 app = Flask(__name__)
 
-photos_directory = "D:/STUDY/Fouth Year/GP/API_Model/Graduation-project/Preprocess&&API/data/"
+photos_directory = "D:/University/Graduation Project/Graduation-project/Preprocess&&API/data"
 def preprocess():
     image_data = []
     target_labels = []
@@ -62,9 +62,11 @@ def preprocess():
 
     image_data = np.array(image_data)
     target_labels = np.array(target_labels)
-
+    # return image_data,target_labels
     np.save("image_data.npy", image_data)
     np.save("target_labels.npy", target_labels)
+
+
 def generate_filename(file):
     user_id = request.form.get('user_id')  # Example: '100'
     gender = request.form.get('gender')  # Example: 'M'
@@ -136,15 +138,15 @@ def exe(image):
     gray_image = tf.image.rgb_to_grayscale(img_np_array)  # Convert to grayscale using OpenCV
     gray_image = np.expand_dims(gray_image, axis=-1)
     real_photo = gray_image.astype(np.float32)
-    # preprocess()
+    # image_data,target=preprocess()
     image_data = np.load("image_data.npy")
     target = np.load("target_labels.npy")
     ans = 0
     any = None
     print(len(image_data))
     for i in range(len(image_data)):
-        pre = model.predict([real_photo.reshape((1, 144, 90, 1)).astype(np.float32),
-                             image_data[i].reshape((1, 144, 90, 1)).astype(np.float32)])
+        pre = model.predict([real_photo.reshape((1, 144, 90, 1)).astype(np.float32)/255.,
+                             image_data[i].reshape((1, 144, 90, 1)).astype(np.float32)/255.])
         if ans < pre:
             any = target[i]
             ans = pre
@@ -167,6 +169,7 @@ def search():
         'accuracy': float(predict)
 
     }
+    print(55)
     return jsonify(search_result)
 @app.route('/Add', methods=['POST'])
 def Add_Image():
