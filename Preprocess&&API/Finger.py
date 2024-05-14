@@ -24,7 +24,8 @@ model = load_model('good_model')
 
 app = Flask(__name__)
 
-photos_directory = "D:/University/Graduation Project/Graduation-project/Preprocess&&API/data"
+photos_directory = "D:/STUDY/Fouth Year/GP/API_Model/Graduation-project/Preprocess&&API/data/"
+
 def preprocess():
     image_data = []
     target_labels = []
@@ -74,6 +75,16 @@ def generate_filename(file):
     lr = request.form.get('lr')
     filename = f"{user_id}_{gender}_{lr}_{finger_type}.BMP"
     return filename
+
+#this function for adding an image for childerns (right and foot)
+def generate_newname(file):
+    user_id = request.form.get('user_id')  # Example: '100'
+    gender = request.form.get('gender')  # Example: 'M'
+    finger_type = 'foot'  # Example: 'Index'
+    lr = 'right'
+    filename = f"{user_id}_{gender}_{lr}_{finger_type}.BMP"
+    return filename
+
 def replace_name(existing_img):
     gender = 'M' if existing_img[1] == 0 else 'F'
     lr = 'Left' if existing_img[2] == '0' else 'Right'
@@ -91,13 +102,18 @@ def replace_name(existing_img):
     else:
         finger = 'foot'
     # Rename the new image to match the existing one
-    new_filename = f"{existing_img[0]}_{gender}_{lr}_{finger}.BMP"
-    return new_filename
+    old_filename = f"{existing_img[0]}_{gender}_{lr}_{finger}.BMP"
+    gender_new = gender
+    lr_new = 'Right'
+    finger_new = 'thumb'
+    new_filename = f"{existing_img[0]}_{gender_new}_{lr_new}_{finger_new}.BMP"
+    print(old_filename, new_filename)
+    return old_filename, new_filename
 
 def Add(file):
     if file.filename == '':
         return 'No selected file'
-    filename = generate_filename(file)
+    filename = generate_newname(file)
     if not os.path.exists(photos_directory):
         os.makedirs(photos_directory)
 
@@ -105,20 +121,20 @@ def Add(file):
     preprocess()
     return filename
 
-def update(file1, file2):
-    if file1.filename == '' or file2.filename == '':
+def update(user_id, file2):
+    if file2.filename == '':
         return 'No selected file'
 
     # Execute the search to find the existing image
-    existing_img, _ = exe(file1)
-    print(existing_img)
+    existing_img = check(user_id)
+    # print(existing_img)
     if existing_img is None:
         return 'The provided image does not match any existing image.'
 
-    new_filename = replace_name(existing_img)
+    old_filename, new_filename = replace_name(existing_img)
 
     # Remove the existing image
-    os.remove(os.path.join(photos_directory, new_filename))
+    os.remove(os.path.join(photos_directory, old_filename))
 
     # Save the new image with the existing image's name
     file2.save(os.path.join(photos_directory, new_filename))
@@ -126,7 +142,6 @@ def update(file1, file2):
     preprocess()
 
     return jsonify({'message': 'File updated successfully','filename': new_filename})
-
 
 def exe(image):
     img = Image.open(image)
@@ -181,16 +196,15 @@ def Add_Image():
     return jsonify({'message': 'File uploaded successfully', 'filename': filename})
 @app.route('/Update', methods=['POST'])
 def Update_Image():
-    if 'image' not in request.files:
-        return jsonify({'error': 'No image provided'}), 400
+    # if 'image' not in request.files:
+    #     return jsonify({'error': 'No image provided'}), 400
     if 'new_image' not in request.files:
         return jsonify({'error': 'No image provided'}), 400
 
     file1 = request.files['new_image']
-    file2 = request.files['image']
+    user_id = request.form.get('user_id')
 
-
-    return update(file2,file1)
+    return update(user_id, file1)
 
 if __name__ == '__main__':
     app.run(debug=True)
