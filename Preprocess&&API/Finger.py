@@ -24,7 +24,7 @@ model = load_model('good_model')
 
 app = Flask(__name__)
 
-photos_directory = "D:/STUDY/Fouth Year/GP/API_Model/Graduation-project/Preprocess&&API/data/"
+photos_directory = "D:/University/Graduation Project/Graduation-project/Preprocess&&API/data"
 
 def preprocess():
     image_data = []
@@ -86,7 +86,8 @@ def generate_newname(file):
     return filename
 
 def replace_name(existing_img):
-    gender = 'M' if existing_img[1] == 0 else 'F'
+    print(existing_img)
+    gender = 'M' if existing_img[1] == '0' else 'F'
     lr = 'Left' if existing_img[2] == '0' else 'Right'
 
     if existing_img[3] == '0':
@@ -121,6 +122,13 @@ def Add(file):
     preprocess()
     return filename
 
+def check(user_id):
+    target = np.load("target_labels.npy")
+    for i in range(len(target)):
+        if target[i][0] == user_id:
+            return target[i]
+
+    return None
 def update(user_id, file2):
     if file2.filename == '':
         return 'No selected file'
@@ -132,7 +140,7 @@ def update(user_id, file2):
         return 'The provided image does not match any existing image.'
 
     old_filename, new_filename = replace_name(existing_img)
-
+    print(old_filename)
     # Remove the existing image
     os.remove(os.path.join(photos_directory, old_filename))
 
