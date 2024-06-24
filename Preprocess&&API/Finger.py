@@ -81,7 +81,7 @@ def generate_newname(file):
     user_id = request.form.get('user_id')  # Example: '100'
     gender = request.form.get('gender')  # Example: 'M'
     finger_type = 'foot'  # Example: 'Index'
-    lr = 'right'
+    lr = 'Right'
     filename = f"{user_id}_{gender}_{lr}_{finger_type}.BMP"
     return filename
 
@@ -119,6 +119,7 @@ def Add(file):
         os.makedirs(photos_directory)
 
     file.save(os.path.join(photos_directory, filename))
+    print(filename)
     preprocess()
     return filename
 
