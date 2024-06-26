@@ -24,7 +24,7 @@ model = load_model('good_model')
 
 app = Flask(__name__)
 
-photos_directory = "D:/University/Graduation Project/Graduation-project/Preprocess&&API/data"
+photos_directory = "Preprocess&&API/data"
 
 def preprocess():
     image_data = []
