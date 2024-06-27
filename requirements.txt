@@ -1,0 +1,16 @@
+Flask
+Gunicorn
+blinker
+click
+itsdangerous
+Werkzeug
+packaging
+MarkupSafe
+zipp
+Jinja2
+keras
+tensorflow
+pillow
+importlib-metadata>=3.6.0; python_version < "3.10"
+colorama; platform_system == "Windows"
+setuptools
