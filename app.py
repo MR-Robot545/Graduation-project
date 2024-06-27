@@ -25,8 +25,13 @@ model = load_model('good_model')
 
 app = Flask(__name__)
 
+<<<<<<< HEAD:app.py
 photos_directory = "data"
 @app.route('/pre', methods=['GET'])
+=======
+photos_directory = "Preprocess&&API/data"
+
+>>>>>>> 11558ab1ab0d310de1db47ea217379c02110ef24:Preprocess&&API/Finger.py
 def preprocess():
     image_data = []
     target_labels = []
